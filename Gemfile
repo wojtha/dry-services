@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'pry'
+gem 'zeitwerk'
+gem 'dry-monads'
+gem 'dry-matcher'
+gem 'dry-initializer'
+gem 'dry-container'
+gem 'dry-transaction'
+gem 'dry-struct'
+gem 'dry-auto_inject'
