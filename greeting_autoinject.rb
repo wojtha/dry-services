@@ -27,7 +27,7 @@ class Container
   register('operations.greet_with_transaction') { Operations::Auto::GreetWithTransaction.new }
 end
 
-Dependencies = Dry::AutoInject(Container)
+Import = Dry::AutoInject(Container)
 
 operations = [
   Container.resolve('operations.greet_classic'),

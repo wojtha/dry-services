@@ -3,7 +3,7 @@ module Operations::Auto
     include Dry::Monads[:result]
     include Dry::Matcher.for(:call, with: Dry::Matcher::ResultMatcher)
 
-    include Dependencies[
+    include Import[
       :user_finder,
       'greeting.greet_user',
       greeting_authorization: 'greeting.authorization',

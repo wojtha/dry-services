@@ -28,7 +28,7 @@ class Container < Dry::System::Container
   load_paths!('lib')
 end
 
-Dependencies = Container.injector
+Import = Container.injector
 
 Container.finalize!
 
